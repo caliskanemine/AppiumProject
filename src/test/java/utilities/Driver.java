@@ -22,8 +22,8 @@ public class Driver {
             switch (ConfigReader.getProperty("platformName")) {
                 case "Android":
                     options = new UiAutomator2Options()
-                            .setAppPackage("com.dmall.mfandroid")
-                            .setAppActivity("com.dmall.mfandroid.activity.base.NewSplash")
+                            .setAppPackage("com.android.chrome")
+                            .setAppActivity("com.google.android.apps.chrome.Main")
                             .setUdid("emulator-5554")
                             .setAutomationName("uiautomator2")
                             .setNoReset(false)

@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = "src/test/resources",
         glue = {"step_Defs", "hooks"},
-        tags = "@deneme",
+        tags = "@google",
         dryRun = false
 )
 public class CukesRunner {
